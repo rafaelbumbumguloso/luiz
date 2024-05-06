@@ -1,0 +1,88 @@
+,.:root {<div class=»botoes»>
+    <button class=»botao ativo»>Cursos na Alura</button>
+    <button class=»botao»>Criar projetos em JavaScript<
+    button>
+    <button class=»botao»>Criar um portfólio</button>
+    <button class=»botao»>Atualizar meu currículo<
+    button>
+    </div>
+    <body>
+    <section class=»conteudo-principal»></section>
+    <h2 class=»titulo-principal»>Meus Objetivos do
+    ano<span>_<span></h2>
+    <div class=»botoes»> ...
+    </div>
+    <script src=»main.js»></script>
+    --cor-de-fundo:#1e1e1e;
+    --verde: #6FFF57;
+    --branco: #FFFFFF;
+    --botao-ativo: #font-family: «Crakra Petch», sans-serif;font-family: «Crakra Petch», sans-serif;font-family: «Crakra Petch», sans-serif;font-family: «Crakra Petch», sans-serif;font-family: «Crakra Petch», sans-serif;3a375e;
+    --botao-inativo: rgba(58, 55, 94, 0.5);
+    --texto-fundo: rgba(58, 55, 94, 0.3); 
+}
+body {
+    background-color: : var(var(--cor-de-fundo));
+    color: var(--branco);
+    font-family: "chakra petch" , sans-serif;
+}
+.conteudo-principal { display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+max-width: 1200px;
+width: 100%;
+margin: 0 auto;
+}
+.titulo-principal {<div class=»botoes»>
+    <button class=»botao ativo»>Cursos na Alura</button>
+    <button class=»botao»>Criar projetos em JavaScript<
+    button>
+    <button class=»botao»>Criar um portfólio</button>
+    <button class=»botao»>Atualizar meu currículo<
+    button>
+    </div>
+    <body>
+    <section class=»conteudo-principal»></section>
+    <h2 class=»titulo-principal»>Meus Objetivos do
+    ano<span>_<span></h2>
+    <div class=»botoes»> ...
+    </div>
+    <script src=»main.js»></script> text-align: left;
+width: 100%;
+font-size: 32px;
+}
+.titulo-principal span {
+color: var(--verde); }
+.botao { 
+background-color: var(--botao-inativo);
+color: var(--branco); display: flex;
+justify-content: center;
+padding: 1em;
+font-size: 18px;
+align-items: center;
+width: 100%;
+}
+border-bottom: 4px solid var(--botao-ativo); border-left: 2px solid var(--botao-ativo); border-right: 2px solid var(--botao-ativo);
+border-top: none;
+.botoes { display: block;
+}
+@media screen and (min-width: 768px) { .botoes { display: flex;
+}.ativo{
+background-color: var(--botao-ativo);
+border-bottom: 4px solid var(--verde);
+}
+
+for (let i=0; i < botões.length; i++) { console.log(i); }
+for(let i=0;i <botoes.length;i++){
+botoes[i].onclick = function() {
+botoes[i].classList.add(«ativo»);
+}
+}
+const botoes = document.querySelectorAll(«.botao»);
+for(let i=0;i <botoes.length;i++){ botoes[i].onclick = function() {
+
+for(let j=0;j<botoes.length;j++) { botoes[j].classList.remove(«ativo»);
+}
+botoes[i].classList.add(«ativo»);
+}
+}
